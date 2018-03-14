@@ -1,0 +1,50 @@
+package com.oracle.plugins.grafeas;
+
+public class TestAttestationPluginExtension {
+     String signature;
+     String grafeasUrl;
+     String pgpKeyID;
+     String projectId;
+     String resourceUrl;
+
+     public String getSignature() {
+        return signature;
+     }
+
+     public void setSignature(String signature) {
+        this.signature = signature;
+     }
+
+     public String getGrafeasUrl() {
+        return grafeasUrl;
+     }
+
+     public void setGrafeasUrl(String grafeasUrl) {
+        this.grafeasUrl = grafeasUrl;
+     }
+
+     public String getPgpKeyID() {
+        return pgpKeyID;
+     }
+
+     public void setPgpKeyID(String pgpKeyID) {
+        this.pgpKeyID = pgpKeyID;
+     }
+
+     public String getProjectId() {
+        return projectId;
+     }
+
+     public void setProjectId(String projectId) {
+        this.projectId = projectId;
+     }
+
+     public String getResourceUrl() {
+        return resourceUrl;
+     }
+
+     public void setResourceUrl(String resourceUrl) {
+        this.resourceUrl = resourceUrl;
+     }
+
+}
